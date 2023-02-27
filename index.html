@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/icon.ico">
+    <script src="https://kit.fontawesome.com/dc9ecc86e3.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Baghdad</title>
+</head>
+
+<body>
+    <!-- header  -->
+    <header id="header-home">
+        <!-- container  -->
+        <div class="container">
+            <!-- navbar  -->
+            <div class="navbar navbar-expand">
+                <a href="#header-home" id="logo" class="logo">BAGH<span>DAD</span></a>
+                <!-- nav  -->
+                <ul class="nav" id="nav">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                </ul>
+                <!-- nav .  -->
+                <!-- contacts div  -->
+                <div class="contacts-div">
+                    <div class="l-div">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>Linkedin</span>
+                    </div>
+                    <div class="g-div">
+                        <i class="fa-brands fa-github"></i>
+                        <span>Github</span>
+                    </div>
+                    <button id="c-btn" class="btn btn-outline" onclick="emailMe()">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact me</span>
+                    </button>
+                    <i class="fa-solid fa-envelope envelope-icon" onclick="emailMe()"></i>
+                </div>
+                <i id="menu" class="menu fa-sharp fa-solid fa-bars"></i>
+                <!-- contacts div . -->
+            </div>
+            <!-- navbar . -->
+        </div>
+        <!-- container . -->
+        <!-- home section  -->
+        <section class="home">
+            <!-- container  -->
+            <div class="container">
+                <!-- l div  -->
+                <div class="l-div">
+                    <p class="hello-p">Hello, i am </p>
+                    <h1 class="name-h1"> &lt; Baghdad <br>
+                        Boulali /&gt; </h1>
+                    <h2 class="job-title">Full Stack Web Developer</h2>
+                    <div class="proj-exp">
+                        <span id="ex-years">2
+                            <hr>
+                        </span>
+                        <p class="exp"> years of <br> experience</p>
+                        <span id="pro-num">3
+                            <hr>
+                        </span>
+                        <p class="pro"> projects completed <br> around the world</p>
+                    </div>
+                </div>
+                <!-- l div . -->
+                <!-- r div  -->
+                <div class="r-div">
+                    <!-- avatar  -->
+                    <div class="avatar">
+                        <span class="shape-1"></span>
+                        <span class="shape-2"></span>
+                        <span class="shape-3"></span>
+                        <i class="l re fa-brands fa-react" style="color:#61dafb"></i>
+                        <!-- <i class="l nj fa-brands fa-node-js" style="color:#83cd29"></i> -->
+                        <box-icon class="dj" name='django' type='logo' color='#29a473' size="25px"></box-icon>
+                        <i class="l js fa-brands fa-js" style="color:#e8d44c"></i>
+                    </div>
+                    <!-- avatar . -->
+                </div>
+                <!-- r div . -->
+            </div>
+            <!-- container . -->
+        </section>
+        <!-- home section . -->
+    </header>
+    <!-- header .  -->
+    <!-- about section  -->
+    <section id="about" class="about">
+        <!-- container  -->
+        <div class="container">
+            <!-- l-div  -->
+            <div class="l-div">
+                <h2>About</h2>
+                <p class="desc">
+                    "Hello and welcome to my portfolio! My name is Baghdad , and I'm a fullstack web developer with
+                    2 years of experience in the industry. I specialize in creating user-friendly and
+                    responsive web applications using a variety of programming languages and frameworks.
+                </p>
+            </div>
+            <!-- l-div . -->
+            <!-- r-div  -->
+            <div class="r-div">
+                <div class="ful-div">
+                    <h5 class="title">Fullstack Developer</h5>
+                    <a href="#projects">Projects</a>
+                    <box-icon name='code-alt' color='#70ff00'></box-icon>
+                </div>
+                <div class="fre-div">
+                    <h5 class="title">Freelancer</h5>
+                    <a
+                        href="https://khamsat.com/programming/ecommerce-development/2443098-%D8%AF%D8%B9%D9%86%D9%8A-%D8%A3%D8%B5%D9%85%D9%85-%D9%84%D9%83-%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-front-end" target="_blank">Hire
+                        me!</a>
+                    <box-icon name='code-curly' color='#70ff00'></box-icon>
+                </div>
+            </div>
+            <!-- r-div . -->
+        </div>
+        <!-- container . -->
+    </section>
+    <!-- about section . -->
+    <!-- skills section  -->
+    <section id="skills" class="skills">
+        <!-- container  -->
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="sk-div">
+                <img src="images/html.svg" alt="" class="html">
+                <img src="images/css.png" alt="" class="css">
+                <img src="images/js.png" alt="" class="js">
+                <img src="images/python.png" alt="" class="py">
+                <img src="images/react.png" alt="" class="react">
+                <img src="images/linux.png" alt="" class="linux">
+            </div>
+        </div>
+        <!-- container . -->
+    </section>
+    <!-- skills section . -->
+    <!-- projects section  -->
+    <section class="projects" id="projects">
+        <!-- container  -->
+        <div class="container">
+            <h2>Projects</h2>
+            <!-- projects-ex  -->
+            <div class="projects-ex">
+                <!-- project  1 -->
+                <div class="project">
+                    <a href="#" target="_blank">
+                        <img class="project-img" src="images/port-img.png" alt="">
+                    </a>
+                </div>
+                <!-- project 1 . -->
+
+                <!-- project  2 -->
+                <div class="project">
+                    <a href="#" target="_self">
+                        <img class="project-img" src="images/naz-code.png" alt="">
+                    </a>
+                </div>
+                <!-- project 2 . -->
+
+                <!-- project 3 -->
+                <div class="project">
+                    <a href="#" target="_self">
+                        <img class="project-img" src="images/quotes-app.png" alt="">
+                    </a>
+                </div>
+                <!-- project 3 . -->
+            </div>
+            <!-- projects-ex . -->
+        </div>
+        <!-- container . -->
+    </section>
+    <!-- projects section . -->
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
